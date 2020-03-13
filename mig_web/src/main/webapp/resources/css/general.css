@@ -1,0 +1,318 @@
+body {
+	/* padding-top: 10px; */
+	
+}
+
+@media screen and (min-width: 992px) {
+   .divColPanelMenu{
+		padding-left: 0 !important;
+	}
+	
+	.h2Title{
+		margin-top: 0 !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	/*    tamaños fijos */
+
+	.util800Rw{
+		width: 800px !important;
+		min-width: 800px !important;
+	}
+	
+	.util900Rw{
+		width: 900px !important;
+		min-width: 900px !important;
+	}
+	
+	.util1000Rw{
+		width: 1000px !important;
+		min-width: 1000px !important;
+	}
+	
+	.util1100Rw{
+		width: 1100px !important;
+		min-width: 1100px !important;
+	}
+	
+	.util1200Rw{
+		width: 1200px !important;
+		min-width: 1200px !important;
+	}
+	
+	.util1400Rw{
+		width: 1400px !important;
+		min-width: 1400px !important;
+	}
+	
+}
+
+.util1400w{
+	width: 1400px !important;
+	min-width: 1400px !important;
+}	
+	
+.colEnum{
+	min-width: 16px !important;
+}
+
+/* hack dattable */
+.tableDatatable{
+	font-size: 0.9em !important;
+}
+
+/* AGREGAR A GENERALES */
+.utilVisible{
+	display: block !important;
+}
+.utilInvisible{
+	display: none !important;
+}
+
+.utilMarginLeft{
+	margin-left: 10px !important;
+}
+
+.utilMarBot10{
+	margin-bottom: 10px !important;
+}
+.utilMarTop10{
+	margin-top: 10px !important;
+}
+.utilMarLef10{
+	margin-left: 10px !important;
+}
+.utilMarRig10{
+	margin-right: 10px !important;
+}
+
+.center{
+	text-align: center !important;
+	margin: auto !important;
+}
+
+.utilRight{
+	text-align: right !important;
+	margin: auto !important;
+}
+
+    
+/* LOADER */
+
+.hide{
+	display:none;
+}
+
+.show(){
+	display: block;
+}
+    
+   
+/*  ANIMACION DE ICONOS */
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+.modal-loader{
+	width: 52px !important;
+	position:absolute;
+    top:50%;
+    left:50%;
+    margin:-25px 0 0 -25px;
+}
+    
+.hrefcolor {
+    background:none!important;
+    border:none; 
+    padding:0!important;    
+    color:#00F;
+    text-decoration:underline;
+    cursor:pointer;
+}      
+
+/* Style datepicker modal div */
+.datepicker{
+	z-index:1151 !important;
+}
+
+/* PARA VALIDACION */
+.help-block{
+	margin: 0 !important;
+	padding: 0 !important;
+	margin-bottom: -10px !important;
+	margin-top: -2px !important;
+}
+
+.li-user {
+	width: 430px; 
+	font-weight: bold; 
+	color: white;
+	text-align: left;
+}
+
+.modal-header {
+	background-color: #307ecc;
+}  
+
+.label-sm {
+	font-size: 13px !important;
+}  
+    
+/* Nuevo estilo para el temporizador */	
+.btn.btn-app-clock {
+  display: inline-block;
+  width: 160px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 -1px -1px rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 0 8px;
+  margin: 2px;
+  line-height: 1.7;
+  position: relative;
+}
+.btn.btn-app-clock.btn-light {
+  color: #5a5a5a !important;
+  text-shadow: 0 1px 1px #EEE !important;
+}
+.btn.btn-app-clock.btn-light,
+.btn.btn-app-clock.btn-light.no-hover:hover,
+.btn.btn-app-clock.btn-light.disabled:hover {
+  background: #ededed !important;
+  background-image: -webkit-linear-gradient(top, #f4f4f4 0%, #e6e6e6 100%) !important;
+  background-image: -o-linear-gradient(top, #f4f4f4 0%, #e6e6e6 100%) !important;
+  background-image: linear-gradient(to bottom, #f4f4f4 0%, #e6e6e6 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff4f4f4', endColorstr='#ffe6e6e6', GradientType=0) !important;
+}
+.btn.btn-app-clock.btn-light:hover {
+  background: #e0e0e0 !important;
+  background-image: -webkit-linear-gradient(top, #e7e7e7 0%, #d9d9d9 100%) !important;
+  background-image: -o-linear-gradient(top, #e7e7e7 0%, #d9d9d9 100%) !important;
+  background-image: linear-gradient(to bottom, #e7e7e7 0%, #d9d9d9 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe7e7e7', endColorstr='#ffd9d9d9', GradientType=0) !important;
+}
+    
+/***** app-clock-min ****/
+
+.btn.btn-app-clock-min {
+  display: inline-block;
+  width: 120px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 -1px -1px rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 0 8px;
+  margin: 2px;
+  line-height: 1.7;
+  position: relative;
+}
+.btn.btn-app-clock-min.btn-light-min {
+  color: #5a5a5a !important;
+  text-shadow: 0 1px 1px #EEE !important;
+}
+.btn.btn-app-clock-min.btn-light-min,
+.btn.btn-app-clock-min.btn-light-min.no-hover:hover,
+.btn.btn-app-clock-min.btn-light-min.disabled:hover {
+  background: #ededed !important;
+  background-image: -webkit-linear-gradient(top, #f4f4f4 0%, #e6e6e6 100%) !important;
+  background-image: -o-linear-gradient(top, #f4f4f4 0%, #e6e6e6 100%) !important;
+  background-image: linear-gradient(to bottom, #f4f4f4 0%, #e6e6e6 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff4f4f4', endColorstr='#ffe6e6e6', GradientType=0) !important;
+}
+.btn.btn-app-clock-min.btn-light-min:hover {
+  background: #e0e0e0 !important;
+  background-image: -webkit-linear-gradient(top, #e7e7e7 0%, #d9d9d9 100%) !important;
+  background-image: -o-linear-gradient(top, #e7e7e7 0%, #d9d9d9 100%) !important;
+  background-image: linear-gradient(to bottom, #e7e7e7 0%, #d9d9d9 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe7e7e7', endColorstr='#ffd9d9d9', GradientType=0) !important;
+}
+
+/* Nuevo estilo para pantalla publico */	
+.fondo-pantalla {
+	background: #222 !important;
+}
+
+.match-pantalla {
+	background: #FFF !important;
+}
+
+.label-pantalla {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.label-match {
+	color: #222;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.label-activity {
+	color: #ffff00;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.label-puntaje1 {
+	color: #ff0000;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.label-time{
+	color: #FFF;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.label-puntaje2 {
+	color: #0000ff;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+legend a {
+	color: inherit;
+}
+legend.legendStyle {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+fieldset.fsStyle {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	border: 1px solid #999999;
+	padding: 4px;
+	margin: 5px;
+}
+legend.legendStyle {
+	font-size: 90%;
+	color: #888888;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+legend {
+	width: auto;
+	border-bottom: 0px;
+}
