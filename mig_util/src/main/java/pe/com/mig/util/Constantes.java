@@ -25,6 +25,9 @@ public final class Constantes implements Serializable {
 	public static final String NIVEL_APP_CONSTROLLER = "CONTROLLER";
 	public static final String NIVEL_APP_REPORTER	 = "REPORTER";
 	public static final String ERROR_DOS_REGISTROS   = "query did not return a unique result: 2";
+	public static final String COD_VALIDACION_GENERAL = "02";
+	public static final String COD_EXITO_GENERAL = "01";
+	public static final String COD_ERROR_GENERAL = "00";
 
 	/* DATOS GENERALES */
 	public static final String EMPTY = "";
@@ -148,6 +151,8 @@ public final class Constantes implements Serializable {
 	public static final BigDecimal AVANCE_CIEN_POR_CIENTO = BigDecimal.valueOf(100);
 
 	/* REPORTES */
+	public static final String REPORT_PATH_RESOURCES = "resources";
+	
 	public static final String REPORT_PATH = new StringBuilder("page")
 			.append(File.separator).append("modulos").append(File.separator)
 			.append("reporte").append(File.separator).append("jrxml")
@@ -156,10 +161,14 @@ public final class Constantes implements Serializable {
 			.append(File.separator).append("modulos").append(File.separator)
 			.append("reporte").append(File.separator).append("jasper")
 			.append(File.separator).toString();
-	public static final String IMAGE_REPORT_PATH = new StringBuilder("util")
+	
+	public static final String IMAGE_REPORT_PATH = new StringBuilder("resources")
 			.append(File.separator).append("images").append(File.separator)
-			.append("principal").append(File.separator).append("logo.jpg")
-			.toString();
+			.append("logo_sanipes.png").toString();
+	
+	public static final String REPORT_PATH_ALMACENES = new StringBuilder("resources")
+			.append(File.separator).append("report").append(File.separator)
+			.append("jrxml").append(File.separator).toString();
 	
 	public static final String NOMBRE_REPORTE_ESPPROMAT_DET = "reporteEspMatProDetallado";
 	public static final String NOMBRE_REPORTE_ESPPROMAT_EST = "reporteEspMatProEstadistico";
@@ -225,5 +234,5 @@ public final class Constantes implements Serializable {
 	/* CODIGO USUARIO TEMPORAL */
 	public static final String CODIGO_USUARIO = "admin";
 	public static final int CODIGO_SEDE_CENTRAL = 1;
-	
+
 }
