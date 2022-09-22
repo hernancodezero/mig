@@ -15,7 +15,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-version>3.2.3.RELEASE</spring-version>
-		<postgresql-version>9.3-1102-jdbc3</postgresql-version>
+		<postgresql-version>42.3.7</postgresql-version>
 		<hibernate-version>4.2.0.Final</hibernate-version>
 	</properties>
 	
